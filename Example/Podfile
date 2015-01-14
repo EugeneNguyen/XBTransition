@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'XBTransition', :exclusive => true do
+  pod "XBTransition", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "XBTransition", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
