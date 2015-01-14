@@ -1,0 +1,17 @@
+PODS:
+  - FBSnapshotTestCase (1.4)
+  - XBTransition (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XBTransition (from `../`)
+
+EXTERNAL SOURCES:
+  XBTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: f9f225b5ba11c8d8c09075590490df16314e4d62
+  XBTransition: 24dc133c5cb4b20d4e77fd62e0b886c1be08afa1
+
+COCOAPODS: 0.34.4
