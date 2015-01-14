@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <XBTViewController.h>
 
-@interface XBTTestViewController : UIViewController
+@interface XBTTestViewController : XBTViewController
 
 @end
