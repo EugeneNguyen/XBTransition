@@ -9,17 +9,17 @@
 
 Pod::Spec.new do |s|
   s.name             = "XBTransition"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "This is an extension of vertigo, where you can show transition from any view and to any view controller"
   s.description      = <<-DESC
                        This is an extension of vertigo, where you can show transition from any view and to any view controller, not have to be imageview & special view controller from vertigo anymore.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/XBTransition"
+  s.homepage         = "https://github.com/EugeneNguyen/XBTransition"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "eugenenguyen" => "xuanbinh91@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/XBTransition.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/EugeneNguyen/XBTransition.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/LIBRETeamStudio'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

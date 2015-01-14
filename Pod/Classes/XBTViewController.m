@@ -16,16 +16,6 @@
 @implementation XBTViewController
 @synthesize previousView = _previousView;
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super initWithCoder:aDecoder];
-    if (self)
-    {
-        
-    }
-    return self;
-}
-
 - (void)setPreviousView:(UIImageView *)previousView
 {
     _previousView = previousView;

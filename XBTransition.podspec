@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "XBTransition"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "This is an extension of vertigo, where you can show transition from any view and to any view controller"
   s.description      = <<-DESC
                        This is an extension of vertigo, where you can show transition from any view and to any view controller, not have to be imageview & special view controller from vertigo anymore.
